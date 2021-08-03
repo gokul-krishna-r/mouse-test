@@ -74,11 +74,11 @@ function App() {
     <div className="container">
       
       {clicked? <div>
-      {rightClicked?<img src={MouseRight}/>:[]} 
-      {leftClicked?<img src={MouseLeft}/>:[]} 
-      {middleClicked?<img src={MouseMiddle}/>:[]}
+      {rightClicked?<img src={MouseRight} alt="mouse right clicked"/>:[]} 
+      {leftClicked?<img src={MouseLeft} alt="mouse left clicked"/>:[]} 
+      {middleClicked?<img src={MouseMiddle} alt="mouse middle clicked"/>:[]}
       </div>
-      :<img src={Mouse}/>}
+      :<img src={Mouse} alt="mouse"/>}
        </div>
   );
 }
