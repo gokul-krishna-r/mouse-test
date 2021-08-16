@@ -122,13 +122,13 @@ function App() {
     <div  className="container">
     
      <SvgLoader path={MouseSVG}>
-     {leftClicked?<SvgProxy selector="#left"  stroke="cyan" />:<SvgProxy selector="#left" stroke='#000'/>}
-     {rightClicked?<SvgProxy selector="#right"  stroke="cyan" />:<SvgProxy selector="#right" stroke='#000'/>}
-     {middleClicked?<SvgProxy selector="#scroll"  fill="cyan" />:<SvgProxy selector="#scroll" fill='#000'/>}
-     {forwardClicked?<SvgProxy selector="#forward"  fill="cyan" />:<SvgProxy selector="#forward" fill='#000'/>}
-     {backwardClicked?<SvgProxy selector="#backward"  fill="cyan" />:<SvgProxy selector="#backward" fill='#000'/>}
-     {wheelUp?<SvgProxy selector="#wheelup"  stroke="cyan" />:<SvgProxy selector="#wheelup" stroke='#000'/>}
-     {wheelDown?<SvgProxy selector="#wheeldown"  stroke="cyan" />:<SvgProxy selector="#wheeldown" stroke='#000'/>}
+     {leftClicked?<SvgProxy selector="#left"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#left" fill='#4D4D4D'/>}
+     {rightClicked?<SvgProxy selector="#right"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#right" fill='#4D4D4D'/>}
+     {middleClicked?<SvgProxy selector="#scroll"  fill='url(#gradient-vertical)' />:<SvgProxy selector="#scroll" fill='#4D4D4D'/>}
+     {forwardClicked?<SvgProxy selector="#forward"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#forward" fill='#4D4D4D'/>}
+     {backwardClicked?<SvgProxy selector="#backward"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#backward" fill='#4D4D4D'/>}
+     {wheelUp?<SvgProxy selector="#wheelup"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#wheelup" fill='#4D4D4D'/>}
+     {wheelDown?<SvgProxy selector="#wheeldown"  fill="url(#gradient-vertical)" />:<SvgProxy selector="#wheeldown" fill='#4D4D4D'/>}
      </SvgLoader>
       
       </div>
