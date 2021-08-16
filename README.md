@@ -5,7 +5,8 @@ Simple project that listens for mouse input
 - [x] Button Click Listener
 - [x] Scroll Listener
 - [ ] Gaming Mouse Button Response
-- [ ] Use SVG for images
+- [x] Use SVG for images
+- [ ] Add color change opton
 - [ ] Input Animation
 - [ ] Social Link
 
