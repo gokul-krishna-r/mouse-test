@@ -6,11 +6,11 @@ Simple project that listens for mouse input
 - [x] Scroll Listener
 - [x] Gaming Mouse Button Response
 - [x] Use SVG for images
-- [ ] Add color change opton
+- [x] Add color change opton
 - [ ] Input Animation
-- [ ] Social Link
 
-## Tutorial
+
+## Steps
 1. Clone the repository to your system ``` $ git clone https://github.com/gokul-krishna-r/mouse-test.git ```
 2. ```$ cd mouse-test```
 3. ```$ npm install ```

@@ -1,11 +1,52 @@
 .container{
   display: flex;
   height: 100vh;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.div_color{
+  width:20%;
+  padding:24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 20px;
+  margin:12px;
+  font-size: 1.25em;
+}
+.wrapper_horizontal{
+  display: flex;
   align-items: center;
 }
 
-.container img,div img{
-  position: absolute;
-
+.div_mouse{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:70%;
+ 
+}
+.labl {
+  display : block;
+  width: 400px;
+}
+.labl > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.labl > input + div{ /* DIV STYLES */
+  cursor:pointer;
+  width:40px;
+  height:40px;
+  background: linear-gradient(93deg, rgba(255,0,0,1) 0%, rgba(222,43,43,1) 45%, rgba(255,209,148,1) 100%);
+  border-radius: 50px;
+  padding:.5em;
+  margin:12px;
+}
+.labl > input:checked + div{ /* (RADIO CHECKED) DIV STYLES */
+  width:60px;
+  height:60px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
